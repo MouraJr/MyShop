@@ -17,7 +17,7 @@ namespace MyShop.Core.Models
         public string Name { get; set; }
         public string Description { get; set; }
 
-        [Range(0, 1000)]
+        [Range(0.00, 1000.00)]
         public string Price { get; set; }
         public string Category { get; set; }
         public string Image { get; set; }
